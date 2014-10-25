@@ -1,0 +1,5 @@
+mvn clean package
+//stops for the specified location
+java -cp target/backupify-1.0-SNAPSHOT.jar com.amooth.backupify.TtcApp "finch_station"
+//routes for the specified location and stop
+java -cp target/backupify-1.0-SNAPSHOT.jar com.amooth.backupify.TtcApp "finch_station" "Finch Station Bus Bay"
